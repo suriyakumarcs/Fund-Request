@@ -1,0 +1,7 @@
+{
+  "name": "Fund-Request",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

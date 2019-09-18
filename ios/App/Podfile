@@ -10,6 +10,9 @@ def capacitor_pods
   # Automatic Capacitor Pod dependencies, do not delete
   pod 'Capacitor', :path => '../../node_modules/@capacitor/ios'
   pod 'CapacitorCordova', :path => '../../node_modules/@capacitor/ios'
+  pod 'ByteowlsCapacitorOauth2', :path => '../../node_modules/@byteowls/capacitor-oauth2'
+  pod 'CapacitorMedia', :path => '../../node_modules/capacitor-media'
+  pod 'CapacitorPluginAes256Encryption', :path => '../../../../AES256/Capacitor-plugin-aes256'
   # Do not delete
 end
 

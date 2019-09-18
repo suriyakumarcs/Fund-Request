@@ -1,14 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+// import { AES256 } from 'cordova-plugin-aes256-encryption';
+
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent {
 
   constructor() { }
 
-  ngOnInit() {}
+  ionViewDidLoad() {
+    // console.log('AES256Web======', AES256);
+  }
 
 }

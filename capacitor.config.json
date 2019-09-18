@@ -3,5 +3,6 @@
   "appName": "Fund-Request",
   "bundledWebRuntime": false,
   "npmClient": "npm",
-  "webDir": "www"
+  "webDir": "www",
+  "linuxAndroidStudioPath": "/home/ubuntu/Projects/android-studio/bin/studio.sh"
 }
